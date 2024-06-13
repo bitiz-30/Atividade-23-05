@@ -15,3 +15,27 @@
     width: 3800px;
     height: 165px;
 }
+.itemMenu{
+    border: 1px;
+    background: none rgb(224, 160, 171);
+}
+.cssMenu{
+    border: 1px;
+    background: none rgb(228, 131, 147);
+}
+.Menu{
+    border: 1px;
+    background: none rgb(212, 77, 99);
+}
+.menu1{
+    width: 100%;
+}
+
+.linhatal{
+    width: 100%;
+    background: rgb(179, 174, 174);
+}
+.linha2{
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
