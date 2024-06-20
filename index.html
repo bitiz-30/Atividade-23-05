@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste Tabela</title>
     <link rel="stylesheet" href="css.css">
+     <script src="jquery.js"></script>
     <style>
         table, th, td {
           border:1px solid rgb(70, 67, 67);
@@ -21,7 +22,10 @@
     </table>
 </header>
 <body>
+    <button id="btAdd" >Add</button>
+    <div id="divP"></div>
     <table class="menu1">
+    
         <tr>
             <th>Escola</th>
             <th>Máterias</th>
@@ -92,5 +96,12 @@
 <footer>
     <h1>Rodapé</h1>
 </footer>
+    <script>
+        var quantidade = 0;
+        $('#btAdd') .click(()=>{
+            quantidade++
+            $('#divP') .append ("<h1> " + quantidade + " - Texto </h1>")
+        })
+    </script>
 </head>
 </html>
